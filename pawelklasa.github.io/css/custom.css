@@ -12,6 +12,7 @@ body {
 p {
   font-family: 'Open Sans';
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -32,25 +33,25 @@ ul a {
   /* unvisited link */
 ul a:link {
   font-family: 'Oswald';
-    color: red;
+    color: ;
 }
 
 /* visited link */
 ul a:visited {
   font-family: 'Oswald';
-    color: green;
+    color: ;
 }
 
 /* mouse over link */
 ul a:hover {
   font-family: 'Oswald';
-    color: hotpink;
+    color: ;
 }
 
 /* selected link */
 ul a:active {
   font-family: 'Oswald';
-    color: blue;
+    color: ;
 
 }
 
@@ -93,6 +94,32 @@ ul a:active {
 
 
 /*CONTENT*/
+
+
+
+
+
+
+.img-center img {
+  width: 100%;
+}
+
+section {
+    padding: 35px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
 
 
 /*BOX template*/
@@ -155,6 +182,12 @@ ul a:active {
   margin-right: 5px;
 }
 
+.img-center img {
+  width: 115%;
+}
+
+
+
 ul a {
   font-family: 'Catamaran';
   font-size: 16px;
@@ -169,6 +202,10 @@ ul a {
   .custom ul {
     text-align: center;
     -webkit-padding-start: 0px;
+}
+
+.img-center img {
+  width: 150%;
 }
 
   .statement p {
@@ -231,6 +268,10 @@ ul a {
 ul {
   margin-top: 15px;
 }
+
+
+  
+
 
 
 
